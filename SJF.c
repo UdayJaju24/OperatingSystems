@@ -1,3 +1,4 @@
+//WAP to implement priority scheduling (non-preemptive)  in C
 #include <stdio.h>
 
 int main() {
