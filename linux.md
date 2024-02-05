@@ -1,5 +1,8 @@
-Open Linux Kernel using Linux/Ubuntu OS
-
+### Instructions
+- Open Linux Kernel(Terminal) using Linux/Ubuntu OS
+- Copy and paste the commands at obtain the output
+- Ensure correct file names & if not create as per requirements
+ #  
 1. Change your password to a password you would like to use
 2. Display the system’s date.
 3.Count the number of lines in the /etc/passwd file.
