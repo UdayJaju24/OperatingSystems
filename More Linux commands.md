@@ -1,4 +1,9 @@
-Write down Linux commands for following statements:
+### Instructions
+- Open Linux Kernel(Terminal) using Linux/Ubuntu OS
+- Copy and paste the commands at obtain the output
+- Ensure correct file names & if not create as per requirements
+ #  
+
 - Redirect the output of ls command to a file named outfile. Use this as an input file for remaining commands.
 - To select the lines in a file which has digit as one of the character in that line and redirect the output to the file named list. 
 - Assign execute permission to owner and remove read permission from other for an ordinary file named test by relative way
