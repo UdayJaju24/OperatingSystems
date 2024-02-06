@@ -36,9 +36,7 @@ man date > mydate
   ```
 mkdir mydir
   ```
- ```
-cd mydir
- ```
+
 
 7. Move the file mydate into the new subdirectory.
   ```
@@ -47,8 +45,11 @@ mv mydate /Users/student/mydir
 
 8. Go to the subdirectory mydir and copy the file mydate to a new file called
 ourdate.
+ ```
+cd /Users/student/mydir
+ ```
   ```
-mydir % cp mydate ourdate
+cp mydate ourdate
   ```
 
 9. List the contents of mydir
@@ -58,7 +59,7 @@ ls mydir
 
 10. Do a long listing on the file ourdate and note the permissions.
   ```
-ls ourdate
+ls -l ourdate
   ```
 
 11. Display the name of the current directory starting from the root.
@@ -90,3 +91,80 @@ tail -8 mydate
   ```
 rmdir mydir
   ```
+17. Redirect the output of the long listing of files to a file named list.
+ ```
+ls -l > list
+ ```
+18. Select any 5 capitals of states in India and enter them in a file named capitals1. Choose 5 more capitals and enter them in a file named capitals2. Choose 5 more capitals and enter them in a file named capitals3. Concatenate all 3 files and redirect the output to a file named capitals.
+ ```
+echo "Jammu, Lucknow, Jaipur, Patna, Dehradun" > capitals1.txt
+ ```
+
+ ```
+echo "Dispur, Kolkata, Shillong, Imphal, Bhubaneshwar" > capitals2.txt
+ ```
+
+ ```
+echo "Chennai,  Mumbai, Hyderabad, Bhopal Bengaluru" > capitals3.txt
+ ```
+
+ ```
+cat capitals1.txt capitals2.txt capitals3.txt > capitals.txt
+ ```
+
+19. Concatenate the file capitals2 at the end of file capitals
+ ```
+ cat capitals2.txt > capitals.txt
+ ```
+20. Give read and write permissions to all users for the file capitals.
+ ```
+chmod 755 capitals.txt
+ ```
+21. Give read permissions only to the owner of the file capitals. Open the file, make some changes and try to save it.
+ ```
+chmod u+r capitals.txt
+ ```
+```
+ls -l capitals
+ ```
+```
+cat > capitals
+hello world
+ ```
+```
+cat  capitals 
+ ```
+22. Create an alias to concatenate the 3 files capitals1, capitals2, capitals3 and redirect the output to a file named capitals. Activate the alias and make it run.
+ ```
+ ```
+23. Find out the number of times the string “the” appears in the file mydate.
+ ```
+ ```
+24. Find out the line numbers on which the string “date” exists in mydate.
+ ```
+ ```
+25. Print all lines of mydate except those that have the letter “i” in them.
+ ```
+ ```
+26. List the words of 4 letters from the file mydate.
+ ```
+ ```
+27. List 5 states in north east India in a file mystates. List their corresponding capitals in a file mycapitals. Use the paste command to join the 2 files.
+ ```
+ ```
+28. Use the cut command to print the 1 st and 3 rd columns of the /etc/passwd file for all students in this class.
+ ```
+ ```
+29. Count the number of people logged in and also trap the users in a file using the tee command.
+ ```
+ ```
+30. Convert the contents of mystates into uppercase.
+ ```
+ ```
+31. Create any two files & display the common values between them.
+ ```
+ ```
+
+
+
+
