@@ -15,9 +15,9 @@ A repo to include basic Linux Commands [](docs/linux.md) , Shell (Bash) scriptin
   - Round Robin
  
 ### Page Replacement
-    - LIFO
-    - Optimal
-    - LRU
+   - LIFO
+   - Optimal
+   - LRU
 ### Deadlock Detection
 - Dining Philospher
 - Reader-Writer
