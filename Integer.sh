@@ -1,5 +1,5 @@
 echo "Enter your num"
-read age
+read num
 echo "Your num is $num"
 if [ ${num} -ge 0 ]
 then
