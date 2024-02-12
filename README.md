@@ -5,9 +5,12 @@ A repo to include basic Linux Commands [](docs/linux.md) , Shell (Bash) scriptin
 - Even/ Odd No
 - Prime No
 - Reverse a Number
+- Reverse a string
 - Factorial
 - Fibonacci
 - Positive number or not
+- Palindrome string
+- Palindrome Number or not
 ### Scheduling
   - First Come First Serve
   - Priority
