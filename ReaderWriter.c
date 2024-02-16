@@ -17,7 +17,7 @@ void* reader(void *arg)
         pthread_mutex_lock(&wrt);
 
     printf("\nReader %ld enters in critical section\n",num);
-    printf("\nReader %ld is reading data %d\n",num,a);
+    printf("\nReader %ld is reading data %d\n",num,a); 
 
     pthread_mutex_lock(&mutex);
         readcount--;
