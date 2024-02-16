@@ -3,7 +3,7 @@
 
 pthread_mutex_t read_mutex;   // Mutex for controlling read access
 pthread_mutex_t write_mutex;  // Mutex for controlling write access
-int read_count = 0;           // Number of readers accessing the resource
+int read_count = 0;           // Number of readers accessing the resource 
 
 void* reader(void* arg) {
     pthread_mutex_lock(&read_mutex);
